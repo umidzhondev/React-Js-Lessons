@@ -1,4 +1,5 @@
 import "./App.css";
+import AddNewBook from "./components/addNewBook";
 import Books from "./components/books";
 import ChildrenProp from "./components/ChildrenProp";
 
@@ -54,6 +55,7 @@ function App() {
 
   return (
     <div className="container">
+      <AddNewBook/>
       <div className="book__wrapper">
         {firstBook.map((books, index) => {
           return (

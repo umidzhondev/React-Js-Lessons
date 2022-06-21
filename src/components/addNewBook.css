@@ -1,0 +1,39 @@
+.add__new-book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 120, 210);
+    padding: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+form{
+    width: 600px;
+}
+
+.new__book-controls{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.new__book-control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.new__book-control input {
+    font:inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+.new__book-actions{
+    text-align: right;
+}
