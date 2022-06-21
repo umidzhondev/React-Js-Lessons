@@ -1,5 +1,7 @@
 import "./App.css";
 import Books from "./components/books";
+import ChildrenProp from "./components/ChildrenProp";
+
 
 function App() {
   const firstBook = [
@@ -55,10 +57,20 @@ function App() {
       <div className="book__wrapper">
         {firstBook.map((books, index) => {
           return (
-            <Books img={books.img} title={books.title} author={books.author} key={index} />
+            <Books
+              img={books.img}
+              title={books.title}
+              author={books.author}
+              key={index}
+            />
           );
         })}
       </div>
+      <br/>
+      <ChildrenProp>
+        About Us
+      </ChildrenProp>
+      <ChildrenProp children={"Contact"} />        
     </div>
   );
 }
