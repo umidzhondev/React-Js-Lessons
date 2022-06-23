@@ -1,7 +1,7 @@
 import "./App.css";
-import AddNewBook from "./components/addNewBook";
-import Books from "./components/books";
-import ChildrenProp from "./components/ChildrenProp";
+
+import UseStateAdvanced from "./components/useStateADvanced/useStateAdvanced";
+import UseStateObject from "./components/useStateADvanced/useStateObject";
 
 
 function App() {
@@ -55,24 +55,8 @@ function App() {
 
   return (
     <div className="container">
-      <AddNewBook/>
-      <div className="book__wrapper">
-        {firstBook.map((books, index) => {
-          return (
-            <Books
-              img={books.img}
-              title={books.title}
-              author={books.author}
-              key={index}
-            />
-          );
-        })}
-      </div>
-      <br/>
-      <ChildrenProp>
-        About Us
-      </ChildrenProp>
-      <ChildrenProp children={"Contact"} />        
+        <UseStateAdvanced/>
+        <UseStateObject/> 
     </div>
   );
 }

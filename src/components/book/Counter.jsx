@@ -9,6 +9,8 @@ const Counter = () => {
         setCounter(counter - 1)
     } 
 
+
+
     return(
         <div>
             <p className="counter">{counter}</p>
