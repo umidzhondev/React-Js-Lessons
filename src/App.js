@@ -1,8 +1,8 @@
 import "./App.css";
+import AddNewBook from "./components/new-book/addNewBook";
 
 import UseStateAdvanced from "./components/useStateADvanced/useStateAdvanced";
 import UseStateObject from "./components/useStateADvanced/useStateObject";
-
 
 function App() {
   const firstBook = [
@@ -55,8 +55,8 @@ function App() {
 
   return (
     <div className="container">
-        <UseStateAdvanced/>
-        <UseStateObject/> 
+      <UseStateAdvanced />
+      <UseStateObject />
     </div>
   );
 }
