@@ -1,11 +1,11 @@
 import "./App.css";
-import UseEffectFetchData from "./components/useEffect/useEffectFetchData";
+import MultipleRendering from "./components/conditional-rendering/multiple-rendering";
 
 function App() {
   return (
     <>
       <div className="container">
-          <UseEffectFetchData/>
+          <MultipleRendering/>
       </div>
     </>
   );
