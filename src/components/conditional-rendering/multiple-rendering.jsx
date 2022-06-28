@@ -6,7 +6,8 @@ const url = "https://api.github.com/users/QuincyLarson";
 const MultipleRendering = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
-  const [user, setUser] = useState("default user");
+  const [user, setUser] = useState("default user")
+  ;
 
   useEffect(() => {
     fetch(url)
