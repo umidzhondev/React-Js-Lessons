@@ -49,8 +49,9 @@ const ControlledInput = () => {
         return (
             <div className="item" key={id}>
                 <h4>{firstName}</h4>
-                <p>{email}</p>
-            </div>
+                <p>{email}</p>  
+                 
+             </div>
         )
       })}
     </>
