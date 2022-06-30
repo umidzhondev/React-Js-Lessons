@@ -1,11 +1,11 @@
 import "./App.css";
-import UseRef from "./components/useRef-basics/useRef";
+import UseReducer from "./components/useReducer/useReducer";
 
 function App() {
   return (
     <>
       <div className="container">
-          <UseRef/>
+          <UseReducer/>
       </div>
     </>
   );
