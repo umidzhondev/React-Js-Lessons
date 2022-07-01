@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.book{
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(39, 178, 101);
+    border-radius: 20px;
+    color: #fff;
+}
+.book__img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.book__info{
+    padding: 15px;
+}
+.book__info p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.book__wrapper{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.border__box{
+    width: 200px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 50px;
+    padding: 15px 0;
+}
+.book__card-btn{
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    color: #000;
+    font-family: "Poppins","Rubik","Montserrat","Mulish",sans-serif;
+    margin: 5px 0;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity .3s ease;
+}
+.book__card-btn:hover,
+.book__card-btn:active{
+    opacity: .8;
+}
+.increment__btn{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+.decrement__btn{
+    background-color: rgb(26, 26, 27);
+    color: #fff;
+}
+.counter{
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 500;
+    margin: 10px auto;
+}
