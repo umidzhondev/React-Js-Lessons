@@ -35,6 +35,8 @@ const UseReducer = () => {
       <br />
       <br />
       <br />
+      <br />
+  
       <form className="form" onSubmit={handleSubmit}>
         <div>
           <input
