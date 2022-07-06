@@ -1,11 +1,11 @@
 import "./App.css";
-import UseReducer from "./components/useReducer/useReducer";
+import ContextApi from "./components/context-api/context-api";
 
 function App() {
   return (
     <>
       <div className="container">
-          <UseReducer/>
+        <ContextApi/>          
       </div>
     </>
   );

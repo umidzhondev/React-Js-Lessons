@@ -1,6 +1,6 @@
 export const data = [
-    { id: 1, name: "jonh" },
-    { id: 2, name: "peter" },
-    { id: 3, name: "susan" },
-    { id: 4, name: "anna" },
+    { id: 1, name: "Umidjon" },
+    { id: 2, name: "Usmonali" },
+    { id: 3, name: "Muhammadaziz" },
+    { id: 4, name: "Abdulloh" },
 ];
